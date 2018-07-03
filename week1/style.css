@@ -1,0 +1,40 @@
+table, th, td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+table tbody th {
+	font-weight: normal;
+	font-style: italic;
+}
+
+table tbody tr:nth-child(odd) {
+	background-color: green;
+	color: white;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: blue;
+	color: white;
+}
+
+.outer-content {
+	position: relative;
+	top:20px;
+	background-color: pink;
+	width:75%;
+	height:50px;
+}
+
+.inner-content {
+	background-color: blue;
+	width:75%;
+	text-align: center;
+	height:25px;
+	color:white;
+	position: absolute;
+	top: 12.5px;
+	left: 12.5%;
+}
+
+/*th:nth-child(odd)*/

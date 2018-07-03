@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>title</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	
+	<body>
+
+		<!-- Here is the table -->
+		<table>
+			<caption>This is the caption</caption>
+			<thead>
+				<tr>
+					<th></th>
+					<th>Column 1</th>
+					<th>Column 2</th>
+					<th>Column 3</th>
+					<th>Column 4</th>
+					<th>Column 5</th>
+			<tfoot>
+				<tr>
+					<td colspan="2"> footer 1</td>
+					<td colspan="4"> footer 2</td>
+			<tbody>
+				<tr>
+					<th>Row 1</th>
+					<td>1</td>
+					<td>2</td>
+					<td>3</td>
+					<td>4</td>
+					<td>5</td>
+				<tr>
+					<th>Row 2</th>
+					<td>6</td>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+					<td>10</td>
+				<tr>
+					<th>Row 3</th>
+					<td>11</td>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+					<td>15</td>
+				<tr>
+					<th>Row 4</th>
+					<td>16</td>
+					<td>17</td>
+					<td>18</td>
+					<td>19</td>
+					<td>20</td>
+				<tr>
+					<th>Row 5</th>
+					<td>21</td>
+					<td>22</td>
+					<td>23</td>
+					<td>24</td>
+					<td>25</td>
+
+		</table>
+
+		<!-- Here is the list -->
+		<dl>
+			<dt>Greatest number in table above</dt>
+			<dd>25</dd>
+			<dt>Least number in table above</dt>
+			<dd>1</dd>
+			<dt>Average number in able above</dt>
+			<dd>13</dd>
+		</dl>
+
+		<!-- Here is the div content -->
+		<div class="outer-content">
+			<div class="inner-content">Here is some content</div>
+		</div>
+		<br><br>
+
+		<!-- Here are the forms -->
+		<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+			<fieldset>
+				<legend>Candy order form (GET)</legend>
+				<label>Enter your name:
+					<input type="text" name="text_input" size="30" maxlength="100">
+				</label>
+				<br />
+				<label>Enter the number of candies you want:
+					<input type="number" name="numerical_input" size="30" maxlength="100">
+				</label>
+				<br />
+				<label>Endter your password here:
+					<input type="password" name="password_input" size="30" maxlength="100">
+				</label>
+				<br />
+				<label> Select your candy: <br>
+					<input type="radio" name="candy" value="Snickers" checked>Snickers<br>
+					<input type="radio" name="candy" value="Skittles" checked>Skittles<br>
+					<input type="radio" name="candy" value="Mentos" checked>Mentos<br>
+				</label>
+				<input type="submit" value="Submit order">
+			</fieldset>
+		</form>
+
+		<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+			<fieldset>
+				<legend>Candy order form (POST)</legend>
+				<label>Enter your name:
+					<input type="text" name="text_input" size="30" maxlength="100">
+				</label>
+				<br />
+				<label>Enter the number of candies you want:
+					<input type="number" name="numerical_input" size="30" maxlength="100">
+				</label>
+				<br />
+				<label>Endter your password here:
+					<input type="password" name="password_input" size="30" maxlength="100">
+				</label>
+				<br />
+				<label> Select your candy: <br>
+					<input type="radio" name="candy" value="Snickers" checked>Snickers<br>
+					<input type="radio" name="candy" value="Skittles" checked>Skittles<br>
+					<input type="radio" name="candy" value="Mentos" checked>Mentos<br>
+				</label>
+				<input type="submit" value="Submit order">
+			</fieldset>
+		</form>
+	</body>
+
+</html>
